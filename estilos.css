@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("fuente/cinzel/Cinzel-Regular.otf");
+    src: url("fuente/cinzel/Cinzel-Regular.otf?#iefix") format("opentype");
+}
+
+body{
+    font-family: "Cinzel";
+    text-align: center;
+    background: #E2E1E7;
+
+    
+}
+/*estilos layaud*/
+#layaud{
+    width: 80%;
+    min-height: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 1%;
+    background-image: url("fondos/WhatsApp\ Image\ 2022-10-17\ at\ 17.55.17.jpeg");
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 10px;
+    
+
+}
+
+/*estilos de las cajas*/
+
+.caja{
+    padding: 5px;
+}
+
+/*estilos de la cabecera*/
+
+.cabecera{
+    
+    grid-column: 1/3;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+
+}
+.cab{
+   height: 10%;
+
+}
+
+
+
+.logo{
+    box-shadow: #ccc 7px 16px 8px 4px;
+
+    flex-basis: 23%;
+    height: 80%;
+    align-self: flex-start;
+    
+}
+
+.logo h2{
+    margin-top: 5%;
+    font-weight: 100;
+}
+
+
+.menu{
+    height: 15%;
+    /*background: lightgoldenrodyellow;*/
+   flex-basis: 75%;
+   align-self: center;
+   line-height: 274%;  
+}
+
+.menu ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    box-shadow: rgb(106, 103, 103) 5px 4px 4px 3px;
+    font-weight: bold;
+}
+
+/*estilos del contenido*/
+
+.contenido{
+    grid-column: 1/3;
+    grid-row: 2/7;
+
+    padding: 20px;
+    
+    
+    display: grid;
+    flex-flow: row wrap;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.articulo{
+    /*border: 1px solid black;*/
+    padding: 5px;
+    margin: 1%;
+    box-shadow: #ccc 5px 0px 4px 2px;
+
+    /*grid-column: 1/3;*/
+}
+
+.articulo p{
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    line-height: 180%;
+
+}
+
+#art1{
+    padding: 2%;
+    box-shadow: #ccc 4px 6px 4px 2px;
+   
+}
+
+#text{
+    border: 1px solid black;
+    height: 90%;
+    padding: 2%;
+    margin: auto;
+    box-shadow: 1px 5px 7px 1px;
+    
+}
+
+#art2{
+    padding: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1%;
+}
+
+.comienzo{
+    padding: 5px;
+}
+
+#comienzos_logo{
+    width: 100%;
+    height: 43%;
+}
+
+#comienzo_foto1{
+    height: 54%;
+}
+
+/*-----------------------------------------------------------------------*/
+#layaud2{
+    width: 80%;
+    height: 2050px;
+
+   padding: 20px;
+   margin: auto;
+   margin-top: 1%;
+   background-image: url("fondos/WhatsApp\ Image\ 2022-10-17\ at\ 17.55.17.jpeg");
+
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   
+}
+.contenido2{
+   padding: 5px;
+
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   
+}
+
+.articulo1{
+    /*border: 1px solid black;*/
+    grid-column: 1/4;
+    margin: 1%;
+    box-shadow: #ccc 5px 0px 4px 2px;
+    
+}
+
+#stilos1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#luna_logo{
+    width: 100%;
+    margin-top: 1%;
+}
+
+#lobo_luna{
+    width: 50%;
+    
+}
+
+#stilos2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#logo_mandala{
+    width: 100%;
+    height: 28%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.lobo_mandala{
+    width: 35%;
+    margin-bottom: 1%;
+}
+
+#stilos3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_cabeza{
+    width: 100%;
+    height: 160px;
+}
+/*-----------------------------------------------------------------------*/
+
+.layaud3{
+    width: 80%;
+    height: 2100px;
+
+   padding: 20px;
+   margin: auto;
+   margin-top: 1%;
+   background-image: url("fondos/WhatsApp\ Image\ 2022-10-17\ at\ 17.55.17.jpeg");
+
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+}
+
+.contenido3{
+    padding: 5px;
+   
+
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+}
+
+.articulo2{
+    grid-column: 1/4;
+    box-shadow: #ccc 5px 0px 4px 2px;
+    
+    margin-top: 1%;
+}
+
+.estilos1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 10px;
+}
+
+#logo_calabera{
+    width: 100%;
+}
+
+.estilos2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 10px;
+}
+
+.logo_trabajos{
+    width: 100%;
+}
+
+#logo_trabajos .titulo{
+    margin-top: 10px;
+}
+
+.estilos3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#logo_meduza{
+    width: 100%;
+}
+
+#elefante{
+    margin-right: 2%;
+}
+
+#text_texto{
+    width: 95%;
+    height: 65%;
+    border: 1px solid black;
+    box-shadow: 1px 5px 7px 1px;
+    font-weight: bold;
+        
+}
+
+#text_texto ul{
+    list-style-position: inside;
+    text-align: start;
+    padding: 20px;
+}
+/*---------------------------------------------------------------------*/
+
+.layaud_end{
+    width: 80%;
+    height: 600px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 1%;
+    background-image: url("fondos/WhatsApp\ Image\ 2022-10-17\ at\ 17.55.17.jpeg");
+
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+}
+
+.contenido_contacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+
+.articulo_contacto{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_contactame{
+    width: 100%;
+    height: 32%;
+}
+
+#contactame{
+    width: 100%;
+    height: 65%;
+    border: 1px solid black;
+    box-shadow: 1px 5px 7px 1px;
+    
+}
+
+#contactame p{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#contactame ul{
+    font-size: 25px;
+
+    list-style-position: inside;
+    text-align: start;
+    padding: 50px;
+}
+
+#contactame ul li{
+    font-family: normal;
+}
+
+footer{
+    background: black;
+    color: white;
+}
+
+

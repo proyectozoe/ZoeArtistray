@@ -1,0 +1,308 @@
+@media(max-width: 1318px){
+    .mano img{
+        width: 100%;
+        
+    }
+}
+
+@media(max-width: 1238px){
+    .partes{
+        width: 17%;
+        margin-right: 7%;
+    }
+    
+    .mano img{
+        width: 140%;
+        height: 250px;
+        
+    }
+    #text_texto ul{
+        list-style-position: inside;
+        text-align: center;
+        padding: 0px;
+        margin-top: 2%;
+    }
+
+    .caballo img{
+        width: 50%;
+        margin-top: 5%;
+        
+    }
+
+    #text{
+        height: 91%;
+        padding: 2%;
+    }
+
+    .articulo p{
+        font-weight: bold;
+        text-align: center;
+        line-height: 20px;
+        line-height: 180%;
+        font-size: 15px;
+        margin: 5px;
+    
+    }
+}
+
+@media(max-width: 1176px){
+    #text_texto ul{
+        list-style-position: inside;
+        text-align: center;
+        padding: 0px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1152px){
+    .cuerpo123 img{
+        height: 10%;
+    }
+}
+
+@media(max-width: 1148px){
+    #lista{
+        margin-top: 2%;
+    }
+    .logo img{
+        height: 81%;
+    }
+}
+
+@media(max-width:1144px){
+    .davinchi img{
+        width: 100%;
+    }
+
+    
+}
+
+@media(max-width: 1136px){
+    .cuerpo123 img{
+        width: 50%;
+        height: 0%;
+    }
+
+    .cuerpo{
+        width: 57%;
+    }
+}
+
+@media(max-width: 1114px){
+    .zoe_viejo img{
+        width: 100%;
+    }
+    .etereo{
+        width: 18%;
+    }
+}
+
+@media(max-width: 1080px){
+    .mesias img{
+        width: 25%;
+        height: 5%;
+        
+    }
+    #lista{
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+    .clbra img{
+        margin-top: 5%;
+    }
+    .mc img{
+        margin-top: 5%;
+    }
+    .tecnica01 img{
+        width: 90%;
+        
+    }
+}
+
+
+
+@media(max-width: 1070px){
+    .cuerpo123 img{
+        
+        height: 10%;
+    }
+}
+
+@media(max-width: 1068px){
+    #text h2{
+        margin-top: 5%
+    }
+    #comienzo_foto1{
+        margin: auto;
+        width: 40%;
+    }
+    .zgatito img{
+        width: 100%;
+        height: 80%; 
+    }
+    .cuerpo123 img{
+        width: 41%;
+        height: 0%;
+    }
+
+    
+}
+
+@media(max-width: 1030px){
+    .cigarrillo0 img{
+        width: 100%;
+    }
+    #contactame{
+        height: 55%;
+        
+    }
+    #text {
+        height: 76%;
+        padding: 2%;
+    }
+    .contenido{
+        height: 86%;
+    }
+    #text{
+        height: 93%;
+    }
+    #art2{
+        height: 91%;
+    }
+    #comienzo_foto1{
+        width: 40%;
+        height: 27%;
+    }
+    .espejito img{
+        width: 100%;
+    }
+    .zgatito img{
+        height: 124%;
+    }
+}
+@media(max-width: 1003px){
+    .meduza6 img{
+       width: 100%;
+    }
+    #lobo_luna {
+        width: 65%;
+    }
+    .lobo_mdl img{
+        width: 100%;
+        margin: auto;
+    }
+    .mupei img{
+        width: 100%;
+    }
+    #text_texto ul{
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width: 950px){
+    .lobo_mdl img{
+        width: 100%;
+    }
+    .meduza6 img{
+        width: 100%;
+    }
+    .mupei img{
+        width: 100%;
+    }
+    #text_texto ul li{ 
+        font-size: 14px;
+    }
+   .espejito img{
+         width: 100%;
+        height: 88%;
+   }
+   #lobo_luna{
+    width: 69%;
+   }
+}
+
+@media(max-width: 924px){
+    #comienzo_foto1 {
+        width: 44%;
+        height: 52%;
+    }
+    .zgatito img {
+        height: 100%;
+    }
+    .lobo_mdl img {
+        width: 100%;
+        height: 90%;
+    }
+    .cigarrillo101{
+        width: 45%;
+    }
+    #text_texto ul li {
+        font-size: 13px;
+    }
+    .logo{
+        height: 60%;
+    }
+    .miradaojos a img{
+        width: 100%;
+    }
+    .cuerpo a img{
+        width: 90%;
+    }
+}
+
+@media(max-width: 902px){
+    .articulo p {
+        font-weight: bold;
+        text-align: center;
+        line-height: 170%;
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    #calabera{
+        margin: auto;
+        width: 92%;
+        height: 505px;
+    }
+
+    .mc img{
+        width: 100%;
+        /*height: 50%;*/
+    }
+
+    .clbra img {
+        margin-top: 0%;
+
+    }
+
+} 
+
+@media(max-width: 838px){
+    #bolas a img{
+        width: 100%;
+    }
+    #text_texto ul li {
+        font-size: 12px;
+    }
+}
+@media(max-width: 804px){
+    .logo {
+        height: 60%;
+        margin-left: 33%;
+    }
+    #calabera{
+        margin-top: 30%;
+    }
+    .layaud3{
+        height: 10%;
+    }
+    .cala{
+        height: 60%;
+    }
+}
+    
+
+
+
